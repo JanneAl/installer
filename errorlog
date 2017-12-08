@@ -1,0 +1,421 @@
+
+C:\Windows\system32>puppet agent -tdv
+Debug: Failed to load library 'syslog' for feature 'syslog'
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Failed to load library 'selinux' for feature 'selinux'
+Debug: Using settings: adding file resource 'confdir': 'File[C:/ProgramData/PuppetLabs/puppet/etc]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'vardir': 'File[C:/ProgramData/PuppetLabs/puppet/var]{:path=>"C:/ProgramData/PuppetLabs/puppet/var", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'logdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/log]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/log", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'statedir': 'File[C:/ProgramData/PuppetLabs/puppet/var/state]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state", :mode=>"1755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'rundir': 'File[C:/ProgramData/PuppetLabs/puppet/var/run]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/run", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'libdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/lib]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/lib", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'preview_outputdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/preview]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/preview", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'certdir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'ssldir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl", :mode=>"771", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'publickeydir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'requestdir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certificate_requests]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certificate_requests", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'privatekeydir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'privatedir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/private", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostcert': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/desktop-bsb580h.tielab.haaga-helia.fi.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/desktop-bsb580h.tielab.haaga-helia.fi.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostprivkey': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostpubkey': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'localcacert': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/ca.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/ca.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostcrl': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/crl.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/crl.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'statefile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/state.yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/state.yaml", :mode=>"660", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'clientyamldir': 'File[C:/ProgramData/PuppetLabs/puppet/var/client_yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/client_yaml", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'client_datadir': 'File[C:/ProgramData/PuppetLabs/puppet/var/client_data]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/client_data", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'classfile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/classes.txt]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/classes.txt", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'resourcefile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/resources.txt]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/resources.txt", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'clientbucketdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/clientbucket]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/clientbucket", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'lastrunfile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/last_run_summary.yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/last_run_summary.yaml", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'lastrunreport': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/last_run_report.yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/last_run_report.yaml", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'graphdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/graphs]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/graphs", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'pluginfactdest': 'File[C:/ProgramData/PuppetLabs/puppet/var/facts.d]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/facts.d", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Puppet::Type::File::ProviderPosix: feature posix is missing
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Failed to load library 'shadow' for feature 'libshadow'
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/log]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/run]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/lib]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/preview]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certificate_requests]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/desktop-bsb580h.tielab.haaga-helia.fi.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/ca.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/crl.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/state.yaml]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var/state]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/client_yaml]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/client_data]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/classes.txt]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var/state]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/resources.txt]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var/state]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/clientbucket]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/last_run_summary.yaml]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var/state]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/last_run_report.yaml]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var/state]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/graphs]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var/state]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/facts.d]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/last_run_summary.yaml]/mode: mode changed '2000674' to '0644'
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/state.yaml]/mode: mode changed '2000670' to '0660'
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/last_run_report.yaml]/mode: mode changed '2000670' to '0640'
+Debug: Finishing transaction 69458980
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Runtime environment: puppet_version=3.8.5, ruby_version=2.0.0, run_mode=agent, default_encoding=CP850
+Debug: Using settings: adding file resource 'confdir': 'File[C:/ProgramData/PuppetLabs/puppet/etc]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'vardir': 'File[C:/ProgramData/PuppetLabs/puppet/var]{:path=>"C:/ProgramData/PuppetLabs/puppet/var", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'logdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/log]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/log", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'statedir': 'File[C:/ProgramData/PuppetLabs/puppet/var/state]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state", :mode=>"1755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'rundir': 'File[C:/ProgramData/PuppetLabs/puppet/var/run]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/run", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'libdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/lib]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/lib", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'preview_outputdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/preview]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/preview", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'certdir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'ssldir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl", :mode=>"771", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'publickeydir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'requestdir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certificate_requests]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certificate_requests", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'privatekeydir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'privatedir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/private", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostcert': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/desktop-bsb580h.tielab.haaga-helia.fi.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/desktop-bsb580h.tielab.haaga-helia.fi.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostprivkey': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostpubkey': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'localcacert': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/ca.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/ca.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostcrl': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/crl.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/crl.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'pluginfactdest': 'File[C:/ProgramData/PuppetLabs/puppet/var/facts.d]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/facts.d", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/log]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/run]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/lib]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/preview]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certificate_requests]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/desktop-bsb580h.tielab.haaga-helia.fi.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/ca.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/crl.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/facts.d]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: Finishing transaction 62586240
+Debug: Using cached certificate for ca
+Debug: Using cached certificate for desktop-bsb580h.tielab.haaga-helia.fi
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Using settings: adding file resource 'statefile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/state.yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/state.yaml", :mode=>"660", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'clientyamldir': 'File[C:/ProgramData/PuppetLabs/puppet/var/client_yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/client_yaml", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'client_datadir': 'File[C:/ProgramData/PuppetLabs/puppet/var/client_data]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/client_data", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'classfile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/classes.txt]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/classes.txt", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'resourcefile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/resources.txt]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/resources.txt", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'clientbucketdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/clientbucket]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/clientbucket", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'lastrunfile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/last_run_summary.yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/last_run_summary.yaml", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'lastrunreport': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/last_run_report.yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/last_run_report.yaml", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'graphdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/graphs]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/graphs", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Finishing transaction 71032220
+Debug: Loaded state in 0.00 seconds
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Failed to load library 'msgpack' for feature 'msgpack'
+Debug: Puppet::Network::Format[msgpack]: feature msgpack is missing
+Debug: node supports formats: pson b64_zlib_yaml yaml raw
+Debug: Using cached certificate for ca
+Debug: Using cached certificate for desktop-bsb580h.tielab.haaga-helia.fi
+Debug: Creating new connection for https://jannemaster.local:8140
+Debug: Using cached certificate_revocation_list for ca
+Debug: Starting connection for https://jannemaster.local:8140
+Debug: Caching connection for https://jannemaster.local:8140
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Info: Retrieving pluginfacts
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Failed to load library 'msgpack' for feature 'msgpack'
+Debug: Puppet::Network::Format[msgpack]: feature msgpack is missing
+Debug: file_metadata supports formats: pson b64_zlib_yaml yaml raw
+Debug: Using cached connection for https://jannemaster.local:8140
+Debug: Caching connection for https://jannemaster.local:8140
+Debug: Finishing transaction 51787740
+Info: Retrieving plugin
+Debug: Failed to load library 'msgpack' for feature 'msgpack'
+Debug: Puppet::Network::Format[msgpack]: feature msgpack is missing
+Debug: file_metadata supports formats: pson b64_zlib_yaml yaml raw
+Debug: Using cached connection for https://jannemaster.local:8140
+Debug: Caching connection for https://jannemaster.local:8140
+Debug: Finishing transaction 41905160
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Loading external facts from C:/ProgramData/PuppetLabs/puppet/var/facts.d
+Debug: Failed to load library 'msgpack' for feature 'msgpack'
+Debug: Puppet::Network::Format[msgpack]: feature msgpack is missing
+Debug: catalog supports formats: pson b64_zlib_yaml yaml dot raw
+Debug: Using cached connection for https://jannemaster.local:8140
+Debug: Caching connection for https://jannemaster.local:8140
+Error: Could not retrieve catalog from remote server: Error 400 on SERVER: Could not match ��ytt��j�� at /etc/puppet/modules/steamcmd/manifests/init.pp:6 on node desktop-bsb580h.tielab.haaga-helia.fi
+Warning: Not using cache on failed catalog
+Error: Could not retrieve catalog; skipping run
+Debug: Using cached connection for https://jannemaster.local:8140
+Debug: Caching connection for https://jannemaster.local:8140
+Debug: Closing connection for https://jannemaster.local:8140
+
+C:\Windows\system32>puppet agent -tdv
+Debug: Failed to load library 'syslog' for feature 'syslog'
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Failed to load library 'selinux' for feature 'selinux'
+Debug: Using settings: adding file resource 'confdir': 'File[C:/ProgramData/PuppetLabs/puppet/etc]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'vardir': 'File[C:/ProgramData/PuppetLabs/puppet/var]{:path=>"C:/ProgramData/PuppetLabs/puppet/var", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'logdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/log]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/log", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'statedir': 'File[C:/ProgramData/PuppetLabs/puppet/var/state]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state", :mode=>"1755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'rundir': 'File[C:/ProgramData/PuppetLabs/puppet/var/run]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/run", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'libdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/lib]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/lib", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'preview_outputdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/preview]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/preview", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'certdir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'ssldir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl", :mode=>"771", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'publickeydir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'requestdir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certificate_requests]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certificate_requests", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'privatekeydir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'privatedir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/private", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostcert': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/desktop-bsb580h.tielab.haaga-helia.fi.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/desktop-bsb580h.tielab.haaga-helia.fi.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostprivkey': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostpubkey': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'localcacert': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/ca.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/ca.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostcrl': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/crl.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/crl.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'statefile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/state.yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/state.yaml", :mode=>"660", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'clientyamldir': 'File[C:/ProgramData/PuppetLabs/puppet/var/client_yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/client_yaml", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'client_datadir': 'File[C:/ProgramData/PuppetLabs/puppet/var/client_data]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/client_data", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'classfile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/classes.txt]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/classes.txt", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'resourcefile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/resources.txt]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/resources.txt", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'clientbucketdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/clientbucket]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/clientbucket", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'lastrunfile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/last_run_summary.yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/last_run_summary.yaml", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'lastrunreport': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/last_run_report.yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/last_run_report.yaml", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'graphdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/graphs]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/graphs", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'pluginfactdest': 'File[C:/ProgramData/PuppetLabs/puppet/var/facts.d]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/facts.d", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Puppet::Type::File::ProviderPosix: feature posix is missing
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Failed to load library 'shadow' for feature 'libshadow'
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/log]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/run]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/lib]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/preview]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certificate_requests]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/desktop-bsb580h.tielab.haaga-helia.fi.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/ca.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/crl.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/state.yaml]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var/state]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/client_yaml]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/client_data]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/classes.txt]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var/state]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/resources.txt]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var/state]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/clientbucket]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/last_run_summary.yaml]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var/state]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/last_run_report.yaml]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var/state]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/graphs]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var/state]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/facts.d]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state/last_run_report.yaml]/mode: mode changed '0600' to '0640'
+Debug: Finishing transaction 69536760
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Runtime environment: puppet_version=3.8.5, ruby_version=2.0.0, run_mode=agent, default_encoding=CP850
+Debug: Using settings: adding file resource 'confdir': 'File[C:/ProgramData/PuppetLabs/puppet/etc]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'vardir': 'File[C:/ProgramData/PuppetLabs/puppet/var]{:path=>"C:/ProgramData/PuppetLabs/puppet/var", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'logdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/log]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/log", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'statedir': 'File[C:/ProgramData/PuppetLabs/puppet/var/state]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state", :mode=>"1755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'rundir': 'File[C:/ProgramData/PuppetLabs/puppet/var/run]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/run", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'libdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/lib]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/lib", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'preview_outputdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/preview]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/preview", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'certdir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'ssldir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl", :mode=>"771", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'publickeydir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'requestdir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certificate_requests]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certificate_requests", :mode=>"755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'privatekeydir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'privatedir': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/private", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostcert': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/desktop-bsb580h.tielab.haaga-helia.fi.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/desktop-bsb580h.tielab.haaga-helia.fi.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostprivkey': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostpubkey': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'localcacert': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/ca.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/ca.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostcrl': 'File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/crl.pem]{:path=>"C:/ProgramData/PuppetLabs/puppet/etc/ssl/crl.pem", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'pluginfactdest': 'File[C:/ProgramData/PuppetLabs/puppet/var/facts.d]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/facts.d", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/log]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/state]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/run]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/lib]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/preview]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certificate_requests]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/desktop-bsb580h.tielab.haaga-helia.fi.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/private_keys]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys/desktop-bsb580h.tielab.haaga-helia.fi.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/public_keys]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs/ca.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/certs]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/etc/ssl/crl.pem]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/etc/ssl]
+Debug: /File[C:/ProgramData/PuppetLabs/puppet/var/facts.d]: Autorequiring File[C:/ProgramData/PuppetLabs/puppet/var]
+Debug: Finishing transaction 55146180
+Debug: Using cached certificate for ca
+Debug: Using cached certificate for desktop-bsb580h.tielab.haaga-helia.fi
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Using settings: adding file resource 'statefile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/state.yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/state.yaml", :mode=>"660", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'clientyamldir': 'File[C:/ProgramData/PuppetLabs/puppet/var/client_yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/client_yaml", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'client_datadir': 'File[C:/ProgramData/PuppetLabs/puppet/var/client_data]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/client_data", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'classfile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/classes.txt]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/classes.txt", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'resourcefile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/resources.txt]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/resources.txt", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'clientbucketdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/clientbucket]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/clientbucket", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'lastrunfile': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/last_run_summary.yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/last_run_summary.yaml", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'lastrunreport': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/last_run_report.yaml]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/last_run_report.yaml", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'graphdir': 'File[C:/ProgramData/PuppetLabs/puppet/var/state/graphs]{:path=>"C:/ProgramData/PuppetLabs/puppet/var/state/graphs", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Finishing transaction 66965180
+Debug: Loaded state in 0.00 seconds
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Failed to load library 'msgpack' for feature 'msgpack'
+Debug: Puppet::Network::Format[msgpack]: feature msgpack is missing
+Debug: node supports formats: pson b64_zlib_yaml yaml raw
+Debug: Using cached certificate for ca
+Debug: Using cached certificate for desktop-bsb580h.tielab.haaga-helia.fi
+
+Debug: Creating new connection for https://jannemaster.local:8140
+Debug: Using cached certificate_revocation_list for ca
+Debug: Starting connection for https://jannemaster.local:8140
+Debug: Caching connection for https://jannemaster.local:8140
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Info: Retrieving pluginfacts
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Failed to load library 'msgpack' for feature 'msgpack'
+Debug: Puppet::Network::Format[msgpack]: feature msgpack is missing
+Debug: file_metadata supports formats: pson b64_zlib_yaml yaml raw
+Debug: Using cached connection for https://jannemaster.local:8140
+Debug: Caching connection for https://jannemaster.local:8140
+Debug: Finishing transaction 51629500
+Info: Retrieving plugin
+Debug: Failed to load library 'msgpack' for feature 'msgpack'
+Debug: Puppet::Network::Format[msgpack]: feature msgpack is missing
+Debug: file_metadata supports formats: pson b64_zlib_yaml yaml raw
+Debug: Using cached connection for https://jannemaster.local:8140
+Debug: Caching connection for https://jannemaster.local:8140
+Debug: Finishing transaction 66951300
+Debug: Evicting cache entry for environment 'production'
+Debug: Caching environment 'production' (ttl = 0 sec)
+Debug: Loading external facts from C:/ProgramData/PuppetLabs/puppet/var/facts.d
+Debug: Failed to load library 'msgpack' for feature 'msgpack'
+Debug: Puppet::Network::Format[msgpack]: feature msgpack is missing
+Debug: catalog supports formats: pson b64_zlib_yaml yaml dot raw
+Debug: Using cached connection for https://jannemaster.local:8140
+Debug: Caching connection for https://jannemaster.local:8140
+Info: Caching catalog for desktop-bsb580h.tielab.haaga-helia.fi
+Debug: Puppet::Type::Exec::ProviderPosix: feature posix is missing
+Debug: Puppet::Type::Exec::ProviderShell: feature posix is missing
+Debug: Creating default schedules
+Debug: Loaded state in 0.00 seconds
+Info: Applying configuration version '1512728935'
+Debug: Exec[Installing steamcmd via SteamCMD](provider=windows): Executing check 'cmd.exe /c if /I not exist "C:/Program Files (x86)/Steam/steamapps/common/steamcmd/steamapps/temp" exit 1'
+Debug: Executing 'cmd.exe /c if /I not exist "C:/Program Files (x86)/Steam/steamapps/common/steamcmd/steamapps/temp" exit 1'
+Debug: Finishing transaction 64482160
+Debug: Storing state
+Debug: Stored state in 0.03 seconds
+Notice: Finished catalog run in 0.11 seconds
+Debug: Using cached connection for https://jannemaster.local:8140
+Debug: Caching connection for https://jannemaster.local:8140
+Debug: Closing connection for https://jannemaster.local:8140
+
+C:\Windows\system32>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
