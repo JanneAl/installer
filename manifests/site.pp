@@ -1,6 +1,2 @@
-node default {
-class {'steamcmd':},
-class {'installer':},
-class {'teamspeak':},
-class {'teamspeak3':},
-}
+include installer
+include steamcmd
