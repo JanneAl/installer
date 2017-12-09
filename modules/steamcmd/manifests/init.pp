@@ -3,9 +3,9 @@ class steamcmd (
   $app_id = '570',
   $steamcmd_path = 'C:/programdata/chocolatey/bin/',
   $install_dir = "C:/Program Files (x86)/Steam/steamapps/common/${title}",
-  $username = undef,
-  $password = undef,
-  $anonymous_login = true,
+  $username = undef, # Steam user name here
+  $password = undef, # Steam user password here
+  $anonymous_login = false, #
 ) {
 
 # Determine login method.
