@@ -5,7 +5,7 @@ class steamcmd (
   $install_dir = "C:/Program Files (x86)/Steam/steamapps/common/${title}",
   $username = undef, # Steam user name here
   $password = undef, # Steam user password here
-  $anonymous_login = false, # keep false to use your account. Needed for games that are not free.
+  $anonymous_login = false, # keep false to use your account.
 ) { 'Dota2':
 
 # Determine login method.
