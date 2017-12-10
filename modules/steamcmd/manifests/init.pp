@@ -6,7 +6,7 @@ class steamcmd (
   $username = undef, # Steam user name here.
   $password = undef, # Steam user password here.
   $anonymous_login = false, # keep false to use your account.
-) { 'Dota2': # Tittle.
+) { 'Dota2': # Title.
 
 # Determine login method.
   if $anonymous_login == true { 
