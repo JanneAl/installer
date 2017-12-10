@@ -1,4 +1,4 @@
-# installer
+# Installer
 
 Installs programs to linux.
 Teamspeak configuration.
